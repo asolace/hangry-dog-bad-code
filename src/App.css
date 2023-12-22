@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+
+.scrolls::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.bg {
+  background-image: url(../src/assets/jpg/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg2 {
+  background-image: url(../src/assets/jpg/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg3 {
+  background-image: url(../src/assets/jpg/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg4 {
+  background-image: url(../src/assets/jpg/bg4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg5 {
+  background-image: url(../src/assets/jpg/bg5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg6 {
+  background-image: url(../src/assets/jpg/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.regular-width {
+  width: 50%;
+}
+
+.specific-width {
+  width: 40%;
+  height: 194px;
+  margin-top: 40px;
+}
+
+.animate-slide {
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+ @keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 0.5s forwards;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 1s;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 1s;
+}
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+
+
+
